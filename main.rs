@@ -1,6 +1,10 @@
 fn main() {
-    let slice = "Hello!";
-    println!("Slice is {} bytes and also {} characters.", slice.len(), slice.chars().count());
-    let slice2 = "안녕!";
-    println!("Slice2 is {} bytes but only {} characters.", slice2.len(), slice2.chars().count());
+
+    let x = 5;
+    let x = x + 1;
+    {
+        let x = x * 2;
+        println!("The value of x in the inner scope is: {}", x);
+    }
+    println!("The value of x in the outer scope is: {}", x);
 }
