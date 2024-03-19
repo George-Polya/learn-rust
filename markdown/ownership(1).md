@@ -1,4 +1,4 @@
-# Rust - ownership (1)
+# Rust - 소유권(Ownership) 1
 
 > 러스트가 메모리를 관리하는 방법
 
